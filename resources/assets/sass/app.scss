@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 // Variables
 @import "variables";
 
@@ -51,5 +52,14 @@ body {
         color: inherit;
       }
     }
+  }
+}
+
+/* User register page */
+.register-page {
+  img.captcha {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    cursor: pointer;
   }
 }
